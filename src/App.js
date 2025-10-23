@@ -131,7 +131,7 @@ function Pricing() {
   async function handleBuy() {
     setLoading(true);
     try {
-      const res = await api('/api/create-checkout', { priceId: 'price_XXXXX' });
+      const res = await api('/api/create-checkout', { priceId: 'price_1SLQNIKj3lkaQ2Tyd8XlGsST' });
       // res.sessionId expected
       // Redirect to Stripe checkout on server response; this is placeholder
       if (res.sessionId) {
